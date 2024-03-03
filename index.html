@@ -9,9 +9,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body class="body">
-    <!-- Шапка -->
+   <!-- Шапка -->
 	<header class="header">
-		<div class="header__container">
+		<div class="container header__container">
 			<!-- Логотип  -->
 			<a href="index.html" class="header__logo">
 				<svg class="header__logo-icon" width="202" height="147" viewBox="0 0 202 147" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,69 +36,95 @@
 			</nav>
 			<!-- Кнопка "Вход"-->
 			<div class="header__right-block">
-			<a href="#" class="btn header__user-btn">
+			<a href="#" class="btn btn--style-one header__user-btn">
 				Войти
 			</a>
-</div>
+			</div>
 		</div>
 	</header>
 	<main class="main">
-	<!-- Постер -->
-		<section class="poster">
-			<div class="poster__container poster__quote">
-				<h2>
-					арт — пространство
-				</h2>
+<!-- Цитата   -->
+		<section class="quote">
+			<div class="container quote__heading">
+				<h2>арт — пространство</h2>
 			</div>
-			<picture class="poster__container poster__img">
-				<img src="assets/img/LENNI.png">
-			</picture>
-			<div class="poster__container poster__quote">
-				<span>
-					для людей, горящих сердцЕМ и делом <br>
-					место для настоящего
-				</span>
+			<div class="container-full-screen quote__picture">
+				<picture>
+					<img src="assets/img/LENNI.png">
+				</picture>
+			</div>
+			<div class="container quote__text-itself">
+				<q>для людей, горящих сердцЕМ и делом <br>место для настоящего</q>
 			</div>
 		</section>
-	<!-- Блок кнопок -->
-		<section class="btn-container">
-				<div class="btn-container__text">
-				<h3>
-					я хочу:
-				</h3>
-				</div>
-				<div class="btn-container-btns">
-					<div class="btn-container__btn-left">
-						<a href="#" class="btn btn--style-two">Провести мероприятие</a>
-					</div>
-					<div class="btn-container__btn-right">
-						<a href="#" class="btn">Cтать арендатором</a>
-					</div>
-				</div>
-				
-			</div>
+<!--  Блок кнопок  -->		
+		<section class="button-section">
+		
 		</section>
-	<!-- О нас -->
+<!--  О нас  -->		
 		<section class="about">
-			<h2 class="section-head"> О нас</h2>
+		
 		</section>
-	<!-- Мероприятия -->
+		
+<!--  Мероприятия  -->		
 		<section class="events">
-			<h2 class="section-head"> Мероприятия</h2>
-			
+		
 		</section>
-	<!-- Блог -->
+<!--  Блог  -->		
 		<section class="blog">
-			<h2 class="section-head"> Блог</h2>
-			
-		</section>	
-	<!-- Контакты -->
+		
+		</section>
+<!--  Контакты  -->		
 		<section class="contacts">
-			<h2 class="section-head"> Контакты</h2>
-			
-		</section>		
+		
+		</section>
 	</main>
-	<footer class="footer">
+<!--  Подвал  -->	
+	<footer class="footer container">
+		<nav class="footer__nav">
+			<ul class="footer__nav-link-list">
+				<li><a class="footer__link" href="#">Календарь мероприятий</a></li>
+				<li><a class="footer__link" href="#">Провести мероприятие</a></li>
+				<li><a class="footer__link"  href="#">Стать арендатором</a></li>
+				<li><a class="footer__link"  href="#">Наши проекты</a></li>
+				<li><a class="footer__link"  href="#">Контакты</a></li>		
+			</ul>
+		</nav>
+		<div class="footer__copirait">
+			<p class="footer__copirait-text">© Millennials 2022</p>
+			<div class="footer__cookies">
+				<a class="footer__link footer__cookies-link" href="#">Политика конфиденциальности</p>
+				<a class="footer__link footer__cookies-link" href="#">Cookies</a>
+			</div>
+		</div>
+		<div class="footer__social-insta">
+			<a class="footer__social-link" href="#">
+				<picture>
+					<img src="assets/img/insta.svg" alt="Создание и продвижение: tagree">
+				</picture>
+			</a>				
+		</div>
+		<div class="footer__social-vk">
+			<a class="footer__social-link" href="#">
+				<picture>
+					<img src="assets/img/vk.svg" alt="Создание и продвижение: tagree">
+				</picture>
+			</a>				
+		</div>
+		<div class="footer__subscribe">
+		<h3>Подпишись и будь в курсе происходящего</h3>
+		<form class="footer-form">
+			<input class="footer-form__email-input" type="text">
+			<button class="btn btn--style-three">Подпишись</button>
+		</form>
+		
+		</div>
+		<div class="footer__design-info">
+			<picture>
+				<img src="assets/img/tagree.svg" alt="Создание и продвижение: tagree">
+			</picture>
+		</div>
+
 	</footer>
   </body>
 </html>
